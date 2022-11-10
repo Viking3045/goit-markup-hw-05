@@ -188,6 +188,24 @@ margin: o;}
     .work-list .item:not(:last-child){
         margin-right: 30px;
     }
+    .work-list .item{
+        position: relative;
+    }
+    .work-list .text{
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        padding: 27px 107px;
+        text-transform: uppercase;
+        color: var(--ptimary-white-color);
+        background: rgba(47, 48, 58, 0.8);
+
+    
+    }
         .section-title{
             margin-bottom: 50px;
         }
