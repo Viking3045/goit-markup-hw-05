@@ -29,9 +29,9 @@ margin: o;}
         padding-bottom: 94px;
     }
            /* Header */
-           .page-header{
+           /* .page-header{
             border-bottom: 1px solid #ECECEC;
-           }
+           } */
            .main-nav{
             display: flex;
             align-items: center;
@@ -209,10 +209,8 @@ margin: o;}
         padding-top: 27px;
         text-transform: uppercase;
         color: var(--ptimary-white-color);
-        background: rgba(47, 48, 58, 0.8); */
-
-    
-     }
+        background: rgba(47, 48, 58, 0.8);
+}
         .section-title{
             margin-bottom: 50px;
         }
@@ -505,7 +503,6 @@ margin: o;}
                  .product-list .overlay{
                      position: absolute;
                      bottom: 0;
-                     left: 0;
                      width: 100%;
                      height: 100%;
                      background-color: var(--accent-color);
@@ -543,5 +540,28 @@ margin: o;}
         margin-top: 0;
         margin-bottom: 0;
         color: var(--primary-text-color);
+}
+
+
+/*Модальне вікно */
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+background: rgba(0, 0, 0, 0.2);
+}
+.modal{
+    width: 528px;
+    height: 581px;
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);   
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
