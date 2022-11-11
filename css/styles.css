@@ -389,6 +389,8 @@ margin: o;}
             height: 44px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
         .follow .link {
             width: 100%;
@@ -398,10 +400,10 @@ margin: o;}
             justify-content: center;
             fill: var(--ptimary-white-color);
     
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
         }
-    .follow .link:hover,
-    .follow .link:focus{
+    .follow .item:hover,
+    .follow .item:focus{
         background-color: var(--accent-color);
         border-radius: 50%;
     }
