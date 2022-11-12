@@ -29,9 +29,9 @@ margin: o;}
         padding-bottom: 94px;
     }
            /* Header */
-           /* .page-header{
+           .page-header{
             border-bottom: 1px solid #ECECEC;
-           } */
+           }
            .main-nav{
             display: flex;
             align-items: center;
@@ -65,14 +65,13 @@ margin: o;}
     }
     .site-nav .link.curent::after{
         position: absolute;
-        margin-bottom: 15px;
         content: "";
         display: block;
         width: 100%;
         height: 4px;
         background-color: var(--accent-color);
         border-radius: 2px;
-        margin-top: 28px;
+        margin-top: 29px;
     }
     .site-nav .link:hover, .site-nav .link:focus{
        color:var(--accent-color) ; 
